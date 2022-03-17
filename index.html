@@ -1,0 +1,605 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.5">
+    
+    
+      
+        <title>DSBA NLP 2022 Materials</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.2d9f7617.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#table-of-contents" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="DSBA NLP 2022 Materials" class="md-header__button md-logo" aria-label="DSBA NLP 2022 Materials" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DSBA NLP 2022 Materials
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Table of Contents
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="DSBA NLP 2022 Materials" class="md-nav__button md-logo" aria-label="DSBA NLP 2022 Materials" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    DSBA NLP 2022 Materials
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Table of Contents
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        Table of Contents
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#week-1-intro-regular-expressions-lemmatization" class="md-nav__link">
+    Week 1 - Intro, Regular expressions, lemmatization
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-2-morpholgy-tokenization-embeddinds-embeddinds" class="md-nav__link">
+    Week 2 - Morpholgy &amp; Tokenization, Embeddinds, Embeddinds
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-3-text-classification" class="md-nav__link">
+    Week 3 - Text classification
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-4-text-classification-2" class="md-nav__link">
+    Week 4 - Text classification (2)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-5-language-models" class="md-nav__link">
+    Week 5 - Language models
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-6-seq2seq-model-and-attention-mechanism" class="md-nav__link">
+    Week 6 - Seq2Seq model and attention mechanism
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-7-transformers" class="md-nav__link">
+    Week 7 - Transformers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-8-syntax" class="md-nav__link">
+    Week 8 - Syntax
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-9-information-extraction-named-entity-recognition" class="md-nav__link">
+    Week 9 - Information extraction, Named entity recognition
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-10-question-answering" class="md-nav__link">
+    Week 10 - Question answering
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-11-text-generation" class="md-nav__link">
+    Week 11 - Text generation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-12-summarisation" class="md-nav__link">
+    Week 12 - Summarisation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-13-model-compression" class="md-nav__link">
+    Week 13 - Model compression
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-14-emnlp-21-tutorial-on-robust-nlp" class="md-nav__link">
+    Week 14 - EMNLP 21 Tutorial on Robust NLP
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-15-bertology" class="md-nav__link">
+    Week 15 - BERTology
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-16-cross-lingual-transfer-learning" class="md-nav__link">
+    Week 16 - Cross-lingual transfer learning
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#week-1-intro-regular-expressions-lemmatization" class="md-nav__link">
+    Week 1 - Intro, Regular expressions, lemmatization
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-2-morpholgy-tokenization-embeddinds-embeddinds" class="md-nav__link">
+    Week 2 - Morpholgy &amp; Tokenization, Embeddinds, Embeddinds
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-3-text-classification" class="md-nav__link">
+    Week 3 - Text classification
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-4-text-classification-2" class="md-nav__link">
+    Week 4 - Text classification (2)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-5-language-models" class="md-nav__link">
+    Week 5 - Language models
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-6-seq2seq-model-and-attention-mechanism" class="md-nav__link">
+    Week 6 - Seq2Seq model and attention mechanism
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-7-transformers" class="md-nav__link">
+    Week 7 - Transformers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-8-syntax" class="md-nav__link">
+    Week 8 - Syntax
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-9-information-extraction-named-entity-recognition" class="md-nav__link">
+    Week 9 - Information extraction, Named entity recognition
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-10-question-answering" class="md-nav__link">
+    Week 10 - Question answering
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-11-text-generation" class="md-nav__link">
+    Week 11 - Text generation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-12-summarisation" class="md-nav__link">
+    Week 12 - Summarisation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-13-model-compression" class="md-nav__link">
+    Week 13 - Model compression
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-14-emnlp-21-tutorial-on-robust-nlp" class="md-nav__link">
+    Week 14 - EMNLP 21 Tutorial on Robust NLP
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-15-bertology" class="md-nav__link">
+    Week 15 - BERTology
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#week-16-cross-lingual-transfer-learning" class="md-nav__link">
+    Week 16 - Cross-lingual transfer learning
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="table-of-contents">Table of Contents</h1>
+<h2 id="week-1-intro-regular-expressions-lemmatization">Week 1 - Intro, Regular expressions, lemmatization</h2>
+<ul>
+<li>September 1, 2021 <code>Lecture</code> <a href="https://docs.google.com/presentation/d/1bu45nPyTTIq5QWCWgImgERBKwTWbpGRm/edit?usp=sharing&amp;ouid=100758864218595343945&amp;rtpof=true&amp;sd=true">lecture slides</a></li>
+<li>October 27, 2021 <code>Seminar</code>    Nikishina (<a href="https://youtu.be/3OD_YCnVg8Q">video</a>), Karpov (<a href="https://youtu.be/MGnXTYKUNo0">video</a>)</li>
+</ul>
+<h2 id="week-2-morpholgy-tokenization-embeddinds-embeddinds">Week 2 - Morpholgy &amp; Tokenization, Embeddinds, Embeddinds</h2>
+<ul>
+<li>November 3, 2021 <code>Lecture</code> Sarkisyan <a href="https://youtu.be/N_HJ4zk7WF0">video</a>, <a href="https://docs.google.com/presentation/d/1l7SpT4-W-peIZ4o9VG9tLIXPvKiFlsgm/edit?usp=sharing&amp;ouid=100758864218595343945&amp;rtpof=true&amp;sd=true">lecture slides</a>, <a href="https://forms.gle/og7QbpHJRAwUyYVJ9">quiz</a></li>
+<li>November 4, 2021 <code>Seminar</code> Nikishina (<a href="https://youtu.be/bRfA1Y8_Yp4">video</a>), Karpov (<a href="https://youtu.be/1UNizK21WWk">video</a>), <a href="https://colab.research.google.com/drive/17EOufnbX0fIIptUvx24P17seVVnyh1c_">colab</a>, <a href="https://github.com/akutuzov/webvectors/blob/master/preprocessing/rusvectores_tutorial.ipynb">rusvectores tutorial</a>, <a href="https://github.com/uber-research/parallax">parralax</a></li>
+</ul>
+<h2 id="week-3-text-classification">Week 3 - Text classification</h2>
+<p>November 10, 2021 <code>Lecture</code> Sarkisyan <a href="https://youtu.be/aub_EDh1Kko">video</a> <a href="https://docs.google.com/presentation/d/10taZqi8ln2zZFerMh5aJOA-NIlD2FW_J/edit?usp=sharing&amp;ouid=100758864218595343945&amp;rtpof=true&amp;sd=true">lecture slides</a>
+November 11, 2021 <code>Seminar</code> Nikishina (<a href="https://youtu.be/hY5_v6iJM7c">video</a>), Karpov (<a href="https://youtu.be/8hikpUe2Cm4">video</a>), <a href="https://colab.research.google.com/drive/1m1a4_JEhe55IKxrwxeAXvTi1WUclTi3q">colab</a></p>
+<h2 id="week-4-text-classification-2">Week 4 - Text classification (2)</h2>
+<p>November 17, 2021 <code>Lecture</code> Sarkisyan <a href="https://youtu.be/TUtTzVuK58M">video</a>, <a href="https://docs.google.com/presentation/d/10taZqi8ln2zZFerMh5aJOA-NIlD2FW_J/edit?usp=sharing&amp;ouid=100758864218595343945&amp;rtpof=true&amp;sd=true">lecture slides</a>, <a href="https://docs.google.com/forms/d/e/1FAIpQLScjcz8y6rgLlzHJxUXnPCZsfggOu95b7fm1kd95Rq0hT2CaGA/viewform?usp=sf_link">quiz</a>
+November 18, 2021 <code>Seminar</code> Nikishina (<a href="https://youtu.be/E8f1fQCi0nA">video</a>), Karpov (<a href="https://youtu.be/qbswIkxYOvc">video</a>), <a href="https://colab.research.google.com/drive/1m1a4_JEhe55IKxrwxeAXvTi1WUclTi3q">colab</a></p>
+<h2 id="week-5-language-models">Week 5 - Language models</h2>
+<p>November 24, 2021 <code>Lecture</code> Sarkisyan <a href="https://youtu.be/nRrEkVO4RkE">video</a> <a href="https://docs.google.com/presentation/d/1Zx8nAMXE1JnG_2j-VbPDiRY_xI9PHxVt/edit?usp=sharing&amp;ouid=100758864218595343945&amp;rtpof=true&amp;sd=true">lecture slides</a>, <a href="https://docs.google.com/forms/d/e/1FAIpQLScvktSWkKSTNpqIc-T2FRr9GA-3ObDeQ0G4UQ-0u124rgC7aw/viewform">quiz</a>
+November 25, 2021 <code>Seminar</code> Nikishina (<a href="https://youtu.be/sQAmA2pXqTk">video</a>), Karpov (<a href="https://youtu.be/LgNC4cWpLIY">video</a>), <a href="https://colab.research.google.com/drive/1hl6zZbhwHpehLlaNf-OLSrufOWI4_L7B?usp=sharing">colab</a>
+December 19, 2021 <code>Homework</code> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwNDiW_HcIP5EHw3bZbqEuM7VbhnJTq7KUkcakO-q2pPEkRQ/viewform">Submission form</a>, <a href="https://www.kaggle.com/t/435a46eba6f94fbc9a15efa4cbfe8c42">Kaggle</a>, deadline: December, 19, 23:59</p>
+<h2 id="week-6-seq2seq-model-and-attention-mechanism">Week 6 - Seq2Seq model and attention mechanism</h2>
+<p>December 1, 2021 <code>Lecture</code> Sarkisyan <a href="https://youtu.be/fZ-Pbc3ivWQ">video</a>, <a href="https://youtu.be/fZ-Pbc3ivWQ">lecture slides</a>, <a href="https://docs.google.com/forms/d/e/1FAIpQLSfR_rJWwCDn3hKsiBfbxA0bmn_jSNBqwrwX7qL_EYbnvaqkww/viewform">quiz IV</a>
+December 2, 2021 <code>Seminar</code> Nikishina (<a href="https://youtu.be/ihzKJ1FDNjE">video</a>), Karpov(<a href="https://github.com/karpovilia/DSBA_NLP_2021/blob/master">video</a>), seminar <a href="https://colab.research.google.com/drive/1S8Drqj0vhrV2pjEk74uvoXgUkQ18FMth?usp=sharing">colab</a></p>
+<h2 id="week-7-transformers">Week 7 - Transformers</h2>
+<p>December 8, 2021 <code>Lecture</code>Sarkisyan  <a href="https://docs.google.com/presentation/d/1VSOIGS-K_ym15DLpqjt_nyTgTfTqEMho/edit?usp=sharing&amp;ouid=100758864218595343945&amp;rtpof=true&amp;sd=true">lecture slides</a>, <a href="https://docs.google.com/forms/d/e/1FAIpQLSfR_rJWwCDn3hKsiBfbxA0bmn_jSNBqwrwX7qL_EYbnvaqkww/viewform">quiz V</a>
+December 8, 2021 <code>Seminar</code> </p>
+<h2 id="week-8-syntax">Week 8 - Syntax</h2>
+<p>December 13, 2021 <code>Seminar</code></p>
+<h2 id="week-9-information-extraction-named-entity-recognition">Week 9 - Information extraction, Named entity recognition</h2>
+<p>January 17, 2022 <code>Lecture</code> Artemova <a href="https://drive.google.com/file/d/1PiBKFWsDo5YaWrM_iLAUTMLAQNK5Pnhd/view?usp=sharing">lecture slides</a></p>
+<h2 id="week-10-question-answering">Week 10 - Question answering</h2>
+<ul>
+<li>January 24, 2022 <code>Lecture</code>    Artemova    <a href="https://drive.google.com/file/d/1PiBKFWsDo5YaWrM_iLAUTMLAQNK5Pnhd/view?usp=sharing">lecture slides</a></li>
+<li>20 jan 2022 Nikishina <code>Seminar</code> <a href="https://youtu.be/oDgJb3Md3SE">video</a></li>
+</ul>
+<h2 id="week-11-text-generation">Week 11 - Text generation</h2>
+<ul>
+<li>January 31, 2022 <code>Lecture</code>    Artemova    <a href="https://www.notion.so/91562c6efa854439bf1efcf4e1b3aed2">lecture notes</a></li>
+<li>27 jan 2022 Karpov <code>Seminar</code> <a href="https://youtu.be/UjvoMs1TIgY">video</a></li>
+</ul>
+<h2 id="week-12-summarisation">Week 12 - Summarisation</h2>
+<ul>
+<li>February 7, 2022 <code>Lecture</code>    Artemova    <a href="https://www.notion.so/fbac41dbab124d06affbac01498ffd63">lecture notes</a></li>
+</ul>
+<h2 id="week-13-model-compression">Week 13 - Model compression</h2>
+<ul>
+<li>February 14, 2022 <code>Lecture</code>   Artemova    <a href="https://www.notion.so/e5cf807ba078404cb54fa8069d025811">lecture notes</a></li>
+</ul>
+<h2 id="week-14-emnlp-21-tutorial-on-robust-nlp">Week 14 - EMNLP 21 Tutorial on Robust NLP</h2>
+<ul>
+<li>February 28, 2022 Artemova <code>Lecture</code> <a href="https://robustnlp-tutorial.github.io">github</a></li>
+</ul>
+<h2 id="week-15-bertology">Week 15 - BERTology</h2>
+<ul>
+<li>March 7, 2022 Artemova <code>Lecture</code> <a href="https://www.youtube.com/watch?v=1aaWuAum5HY&amp;t=121s">video</a> </li>
+</ul>
+<h2 id="week-16-cross-lingual-transfer-learning">Week 16 - Cross-lingual transfer learning</h2>
+<ul>
+<li>March 15, 2022    Artemova <code>Lecture</code>  <a href="https://www.youtube.com/watch?v=uwCCv0BMMoo">video</a>, <a href="https://youtu.be/3tx471492ns">video</a></li>
+<li>
+<p>16 mar 2022 "Taxonomies and knowledge graphs" <code>Seminar</code> Nikishina <a href="https://youtu.be/Q6tv39xklh8">video</a>\</p>
+</li>
+<li>
+<p>15 mar 2022 <code>Lecture</code> <a href="https://youtu.be/3tx471492ns">video</a></p>
+</li>
+<li>14 mar 2022 <code>Lecture</code> <a href="https://youtu.be/4XfexInZ2_Y">video</a></li>
+<li>10 mar 2022 Karpov <code>Seminar</code> <a href="https://youtu.be/q_iPz_jgBs8">video</a></li>
+<li>07 mar 2022 Nikishina <code>Seminar</code> <a href="https://youtu.be/XoXLJwNQoMI">video</a></li>
+<li>07 mar 2022 <code>Lecture</code> <a href="https://youtu.be/WpurEhpIkmg">video</a></li>
+<li>10 feb 2022 Karpov <code>Seminar</code> <a href="https://youtu.be/RLvfrjCMje0">video</a></li>
+<li>28 feb 2022 <code>Lecture</code> <a href="https://youtu.be/RI6UDhiG-T4">video</a></li>
+<li>21 feb 2022 <code>Lecture</code> <a href="https://studio.youtube.com/video/WTGlb72Onao/edit">video</a></li>
+<li>17 feb 2022 Karpov <code>Seminar</code> <a href="https://youtu.be/KOKUIsLwYyE">video</a></li>
+<li>16 feb 2022 Nikishina <code>Seminar</code> <a href="https://youtu.be/HO62eLbIysk">video</a></li>
+<li>12 feb 2022 Nikishina <code>Seminar</code> <a href="https://youtu.be/gTsy70kzZww">video</a></li>
+<li>09 feb 2022 Nikishina <code>Seminar</code> <a href="https://youtu.be/5r1-SMRMfW8">video</a></li>
+<li>07 feb 2022 Nikishina <code>Seminar</code> <a href="https://youtu.be/_CLJ_QI-wF4">video</a></li>
+<li>03 feb 2022 Karpov <code>Seminar</code> <a href="https://youtu.be/6yWOjSy2Hak">video</a></li>
+<li>02 feb 2022 Nikishina <code>Seminar</code> <a href="https://youtu.be/94_piqVQiO0">video</a></li>
+<li>27 jan 2022 Karpov <code>Seminar</code> <a href="https://youtu.be/on72Ka1oaKg">video</a></li>
+</ul>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": ".", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.bd0b6b67.min.js"}</script>
+    
+    
+      <script src="assets/javascripts/bundle.467223ff.min.js"></script>
+      
+    
+  </body>
+</html>
